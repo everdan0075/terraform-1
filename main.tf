@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 variable "cidr_blocks" {
-    description = "cidr block for vpc and subnets"
+    description = "cidr block for vpc and subnets "
     type = list(string)
 }
 
