@@ -1,0 +1,12 @@
+# local .terraform fir
+.terraform/*
+
+# tf state files
+*.tfstate
+*.tfstate.*
+
+# tf variables files, may include sensitive data
+*.tfvars
+
+# ignore lock file for security
+*.lock*
